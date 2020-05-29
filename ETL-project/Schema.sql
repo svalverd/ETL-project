@@ -1,22 +1,20 @@
 ﻿CREATE TABLE mass_shootings_2018 (
-Incident_Date VARCHAR,
-States VARCHAR,
-City_Or_County VARCHAR,
-Address VARCHAR,
-Killings INT,
-Injuries INT,
-Operations VARCHAR
+id INT PRIMARY KEY,
+incident_date VARCHAR,
+states VARCHAR,
+locations VARCHAR,
+killed_2018 INT,
+injured_2018 INT
 );
 
 
 CREATE TABLE mass_shootings_2019 (
-Incident_Date VARCHAR,
-States VARCHAR,
-City_Or_County VARCHAR,
-Address VARCHAR,
-Killings INT,
-Injuries INT,
-Operations VARCHAR
+id INT PRIMARY KEY,
+incident_date VARCHAR,
+states VARCHAR,
+locations VARCHAR,
+killed_2019 INT,
+injured_2019 INT
 );
 
 
